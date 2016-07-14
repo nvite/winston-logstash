@@ -1,6 +1,6 @@
 {
-  "name": "winston-logstash",
-  "version": "0.1.10",
+  "name": "@nvite/winston-logstash",
+  "version": "0.1.11",
   "description": "A Logstash transport for winston",
   "main": "./lib/winston-logstash",
   "homepage": "https://github.com/jaakkos/winston-logstash",
@@ -9,6 +9,9 @@
   },
   "engines": {
     "node": ">=0.8.x"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -40,7 +43,10 @@
     "Ivan Fraixedes"
   ],
   "maintainers": [
-    "Jaakko Suutarla <jaakko@suutarla.com>"
+    {
+      "name": "evandudla",
+      "email": "evan@dud.la"
+    }
   ],
   "directories": {
     "doc": "docs",

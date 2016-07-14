@@ -12,10 +12,10 @@ A [Logstash TCP][0] transport for [winston][1].
   var winston = require('winston');
 
   //
-  // Requiring `winston-logstash` will expose
+  // Requiring `@nvite/winston-logstash` will expose
   // `winston.transports.Logstash`
   //
-  require('winston-logstash');
+  require('@nvite/winston-logstash');
 
   winston.add(winston.transports.Logstash, {
     port: 28777,
